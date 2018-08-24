@@ -5,7 +5,7 @@
 		<groupId>com.digi.xbee</groupId>
 		<artifactId>xbee-java-library-parent</artifactId>
 		<version>1.2.1</version>
-		<relativePath>../../../../pom.xml</relativePath>
+		<relativePath>../pom.xml</relativePath>
 	</parent>
 	<artifactId>receive-explicit-data-polling-sample</artifactId>
 	<packaging>jar</packaging>
@@ -18,7 +18,7 @@
 
 	<build>
 		<sourceDirectory>src</sourceDirectory>
-		<directory>../../../../target/examples/communication/explicit/ReceiveExplicitDataPollingSample</directory>
+		<directory>target/examples/communication/explicit/ReceiveExplicitDataPollingSample</directory>
 		<plugins>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>

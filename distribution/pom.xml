@@ -53,7 +53,7 @@
 	
 	<build>
 		<finalName>XBJL-${project.version}</finalName>
-		<directory>../target/${project.artifactId}</directory>
+		<directory>target/${project.artifactId}</directory>
 		<!-- Generate the deliverable file  -->
 		<plugins>
 			<plugin>
