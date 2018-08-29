@@ -9,3 +9,5 @@ bin
 *.prefs
 
 *.class
+
+*.properties
